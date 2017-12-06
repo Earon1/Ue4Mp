@@ -1,0 +1,1053 @@
+﻿Log file open, 12/05/17 22:28:01
+LogInit:Display: Running engine for game: Multiplayer
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1169869847) SRandInit(1169869847).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.069785
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMainMenu -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.05-21.28.02:087][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.05-21.28.02:087][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.05-21.28.02:090][  0]LogInit: Computer: DEVPC
+[2017.12.05-21.28.02:090][  0]LogInit: User: Aron
+[2017.12.05-21.28.02:090][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.12.05-21.28.02:090][  0]LogInit: High frequency timer resolution =3.903995 MHz
+[2017.12.05-21.28.02:090][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.05-21.28.02:090][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-21.28.02:090][  0]LogMemory: Process Physical Memory: 296.83 MB used, 296.83 MB peak
+[2017.12.05-21.28.02:090][  0]LogMemory: Process Virtual Memory: 276.04 MB used, 276.04 MB peak
+[2017.12.05-21.28.02:090][  0]LogMemory: Physical Memory: 6326.32 MB used,  9999.50 MB free, 16325.82 MB total
+[2017.12.05-21.28.02:090][  0]LogMemory: Virtual Memory: 797.50 MB used,  9999.50 MB free, 134217728.00 MB total
+[2017.12.05-21.28.02:174][  0]LogTextLocalizationManager: No translations for ('hr-HR') exist, falling back to 'en' for localization and internationalization data.
+[2017.12.05-21.28.02:565][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.05-21.28.02:588][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2017.12.05-21.28.02:588][  0]LogD3D11RHI:       8168/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
+[2017.12.05-21.28.02:591][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.05-21.28.02:591][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.05-21.28.02:591][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.05-21.28.02:595][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.05-21.28.02:596][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.05-21.28.02:596][  0]LogWindows: EnumDisplayDevices:
+[2017.12.05-21.28.02:596][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2017.12.05-21.28.02:596][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2017.12.05-21.28.02:596][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2017.12.05-21.28.02:596][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.12.05-21.28.02:596][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.12.05-21.28.02:596][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.12.05-21.28.02:596][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.05-21.28.02:596][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2017.12.05-21.28.02:596][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.05-21.28.02:596][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.05-21.28.02:596][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.05-21.28.02:731][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.05-21.28.02:742][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.12.05-21.28.02:743][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (E:/Buisness/Unreal/Multiplayer 4.14/Intermediate/Shaders/WorkingDirectory/12048/).
+[2017.12.05-21.28.02:743][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aron/AppData/Local/Temp/UnrealShaderWorkingDir/FC613DE84D7DB3BFED3E06AD201ECF38/'.
+[2017.12.05-21.28.02:743][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.05-21.28.03:700][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.05-21.28.03:746][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.05-21.28.03:790][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.05-21.28.03:829][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.05-21.28.03:829][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.05-21.28.04:202][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.05-21.28.04:234][  0]LogDerivedDataCache: Loaded boot cache 0.03s 50MB C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.12.05-21.28.04:234][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.12.05-21.28.04:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Buisness/Unreal/Multiplayer 4.14/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.05-21.28.04:234][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.05-21.28.04:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Buisness/Unreal/Multiplayer 4.14/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.05-21.28.04:234][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.05-21.28.04:247][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.05-21.28.04:259][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.05-21.28.04:267][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.05-21.28.04:267][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.05-21.28.04:267][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.05-21.28.04:561][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.12.05-21.28.04:564][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.002538 seconds
+[2017.12.05-21.28.04:576][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.05-21.28.04:577][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.12.05-21.28.04:742][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.05-21.28.04:780][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.05-21.28.04:819][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.05-21.28.04:819][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.05-21.28.04:819][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.05-21.28.05:207][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: multiplayer, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 32584562
+[2017.12.05-21.28.05:915][  0]LogMoviePlayer: Initializing movie player
+[2017.12.05-21.28.06:025][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.05-21.28.06:265][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.05-21.28.06:300][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.05-21.28.06:618][  0]SourceControl: Info Source control is disabled
+[2017.12.05-21.28.06:618][  0]SourceControl: Info Source control is disabled
+[2017.12.05-21.28.06:657][  0]SourceControl: Info Source control is disabled
+[2017.12.05-21.28.07:400][  0]LogUObjectArray: 34616 objects as part of root set at end of initial load.
+[2017.12.05-21.28.07:400][  0]LogUObjectAllocator: 7903808 out of 0 bytes used by permanent object pool.
+[2017.12.05-21.28.07:400][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.05-21.28.07:489][  0]LogEngine: Initializing Engine...
+[2017.12.05-21.28.07:490][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.05-21.28.07:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.05-21.28.07:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.05-21.28.07:579][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-21.28.07:590][  0]LogInit: FAudioDevice initialized.
+[2017.12.05-21.28.07:603][  0]LogInit: Texture streaming: Enabled
+[2017.12.05-21.28.07:618][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.05-21.28.07:895][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2017.12.05-21.28.07:895][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2017.12.05-21.28.08:237][  0]LogInit:Display: Game Engine Initialized.
+[2017.12.05-21.28.08:382][  0]LogInit:Display: Starting Game.
+[2017.12.05-21.28.08:383][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCMainMenu?Name=Player
+[2017.12.05-21.28.08:383][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCMainMenu?Name=Player
+[2017.12.05-21.28.08:403][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-21.28.08:403][  0]LogMemory: Process Physical Memory: 913.34 MB used, 913.34 MB peak
+[2017.12.05-21.28.08:403][  0]LogMemory: Process Virtual Memory: 993.34 MB used, 993.36 MB peak
+[2017.12.05-21.28.08:403][  0]LogMemory: Physical Memory: 6925.93 MB used,  9399.89 MB free, 16325.82 MB total
+[2017.12.05-21.28.08:403][  0]LogMemory: Virtual Memory: 1790.02 MB used,  9399.89 MB free, 134217728.00 MB total
+[2017.12.05-21.28.08:403][  0]LogMemory: 
+[2017.12.05-21.28.08:403][  0]Allocator Stats for TBB: (not implemented)
+[2017.12.05-21.28.08:515][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.12.05-21.28.08:517][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2017.12.05-21.28.08:517][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode': Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2017.12.05-21.28.08:517][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2017.12.05-21.28.08:517][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode': Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2017.12.05-21.28.08:517][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2017.12.05-21.28.08:517][  0]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-21.28.08:518][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCMainMenu.MainMenu up for play (max tick rate 0) at 2017.12.05-22.28.08
+[2017.12.05-21.28.08:519][  0]LogWorld: Bringing up level for play took: 0.001220
+[2017.12.05-21.28.08:524][  0]LogLoad: Took 0.140088 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCMainMenu)
+[2017.12.05-21.28.08:721][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
+[2017.12.05-21.28.08:721][  0]LogLoad: (Engine Initialization) Total time: 8.51 seconds
+[2017.12.05-21.28.08:721][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.12.05-21.28.08:721][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.05-21.28.08:721][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.05-21.28.08:738][  0]LogOcInput: OculusInput pre-init called
+[2017.12.05-21.28.14:564][359]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:362).
+[2017.12.05-21.30.03:269][ 97]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.05-21.30.16:507][917]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1169529388
+[2017.12.05-21.30.16:513][917]LogInit: WinSock: I am DevPC (192.168.0.16:0)
+[2017.12.05-21.30.16:667][917]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve Lobby.umap.
+[2017.12.05-21.30.16:724][917]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve Lobby.umap.
+[2017.12.05-21.30.16:724][917]LogNet: Browse: /Game/Maps/Lobby?listen
+[2017.12.05-21.30.16:724][917]LogLoad: LoadMap: /Game/Maps/Lobby?listen
+[2017.12.05-21.30.16:737][917]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-21.30.16:737][917]LogMemory: Process Physical Memory: 945.00 MB used, 945.00 MB peak
+[2017.12.05-21.30.16:737][917]LogMemory: Process Virtual Memory: 1347.27 MB used, 1496.62 MB peak
+[2017.12.05-21.30.16:737][917]LogMemory: Physical Memory: 6910.86 MB used,  9414.96 MB free, 16325.82 MB total
+[2017.12.05-21.30.16:737][917]LogMemory: Virtual Memory: 2266.07 MB used,  9414.96 MB free, 134217728.00 MB total
+[2017.12.05-21.30.16:737][917]LogMemory: 
+[2017.12.05-21.30.16:737][917]Allocator Stats for TBB: (not implemented)
+[2017.12.05-21.30.17:511][917]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.30.17:511][917]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WidgetTree
+[2017.12.05-21.30.17:511][917]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.30.17:511][917]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.30.17:511][917]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WidgetTree
+[2017.12.05-21.30.17:511][917]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.30.17:519][917]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.30.17:519][917]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.30.17:519][917]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.30.17:519][917]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.30.17:519][917]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.30.17:519][917]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.30.17:679][917]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.30.17:679][917]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WorldSettings_1
+[2017.12.05-21.30.17:679][917]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.30.17:679][917]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.30.17:679][917]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WorldSettings_1
+[2017.12.05-21.30.17:679][917]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.30.17:683][917]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.30.17:683][917]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.30.17:683][917]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.30.17:683][917]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.30.17:683][917]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.30.17:683][917]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.30.18:480][917]LogAIModule: Creating AISystem for world Lobby
+[2017.12.05-21.30.18:480][917]LogLoad: Game class is 'LobbyGM_C'
+[2017.12.05-21.30.18:483][917]LogNet:Display: SteamNetDriver_0 bound to port 7777
+[2017.12.05-21.30.18:483][917]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.05-21.30.18:483][917]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2017.12.05-21.30.18:489][917]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2017.12.05-22.30.18
+[2017.12.05-21.30.18:489][917]LogWorld: Bringing up level for play took: 0.005332
+[2017.12.05-21.30.18:511][917]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.05-21.30.18:511][917]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.05-21.30.18:511][917]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.05-21.30.18:511][917]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.05-21.30.18:511][917]LogLoad: Took 1.786598 seconds to LoadMap(/Game/Maps/Lobby)
+[2017.12.05-21.32.58:409][820]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve MainMenu.umap.
+[2017.12.05-21.32.58:409][820]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.12.05-21.32.58:409][820]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.12.05-21.32.58:466][820]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve MainMenu.umap.
+[2017.12.05-21.32.58:466][820]LogNet: Browse: /Game/Maps/MainMenu
+[2017.12.05-21.32.58:466][820]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2017.12.05-21.32.58:467][820]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2017.12.05-21.32.58:467][820]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2017.12.05-21.32.58:467][820]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2017.12.05-21.32.58:469][820]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2017.12.05-21.32.58:514][820]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-21.32.58:514][820]LogMemory: Process Physical Memory: 1084.61 MB used, 1123.25 MB peak
+[2017.12.05-21.32.58:514][820]LogMemory: Process Virtual Memory: 1611.02 MB used, 1651.54 MB peak
+[2017.12.05-21.32.58:514][820]LogMemory: Physical Memory: 7020.91 MB used,  9304.91 MB free, 16325.82 MB total
+[2017.12.05-21.32.58:514][820]LogMemory: Virtual Memory: 2459.97 MB used,  9304.91 MB free, 134217728.00 MB total
+[2017.12.05-21.32.58:514][820]LogMemory: 
+[2017.12.05-21.32.58:514][820]Allocator Stats for TBB: (not implemented)
+[2017.12.05-21.32.58:536][820]LogAIModule: Creating AISystem for world MainMenu
+[2017.12.05-21.32.58:536][820]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-21.32.58:537][820]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2017.12.05-22.32.58
+[2017.12.05-21.32.58:537][820]LogWorld: Bringing up level for play took: 0.000341
+[2017.12.05-21.32.58:539][820]LogLoad: Took 0.072553 seconds to LoadMap(/Game/Maps/MainMenu)
+[2017.12.05-21.33.09:489][497]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve Lobby.umap.
+[2017.12.05-21.33.09:547][497]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve Lobby.umap.
+[2017.12.05-21.33.09:547][497]LogNet: Browse: /Game/Maps/Lobby?listen
+[2017.12.05-21.33.09:547][497]LogLoad: LoadMap: /Game/Maps/Lobby?listen
+[2017.12.05-21.33.09:561][497]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-21.33.09:561][497]LogMemory: Process Physical Memory: 1091.00 MB used, 1123.25 MB peak
+[2017.12.05-21.33.09:561][497]LogMemory: Process Virtual Memory: 1668.92 MB used, 1669.46 MB peak
+[2017.12.05-21.33.09:561][497]LogMemory: Physical Memory: 7011.35 MB used,  9314.47 MB free, 16325.82 MB total
+[2017.12.05-21.33.09:561][497]LogMemory: Virtual Memory: 2515.97 MB used,  9314.47 MB free, 134217728.00 MB total
+[2017.12.05-21.33.09:561][497]LogMemory: 
+[2017.12.05-21.33.09:561][497]Allocator Stats for TBB: (not implemented)
+[2017.12.05-21.33.10:211][497]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.33.10:211][497]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WidgetTree
+[2017.12.05-21.33.10:211][497]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.33.10:211][497]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.33.10:211][497]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WidgetTree
+[2017.12.05-21.33.10:211][497]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.33.10:219][497]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.33.10:219][497]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.33.10:219][497]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.33.10:219][497]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.33.10:219][497]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.33.10:219][497]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.33.10:357][497]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.33.10:357][497]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WorldSettings_1
+[2017.12.05-21.33.10:357][497]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.33.10:357][497]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.33.10:357][497]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WorldSettings_1
+[2017.12.05-21.33.10:357][497]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.33.10:362][497]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.33.10:362][497]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.33.10:362][497]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.33.10:362][497]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.33.10:362][497]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.33.10:362][497]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.33.11:126][497]LogAIModule: Creating AISystem for world Lobby
+[2017.12.05-21.33.11:126][497]LogLoad: Game class is 'LobbyGM_C'
+[2017.12.05-21.33.11:127][497]LogNet:Display: SteamNetDriver_1 bound to port 7777
+[2017.12.05-21.33.11:127][497]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.05-21.33.11:127][497]LogNet: GameNetDriver SteamNetDriver_1 IpNetDriver listening on port 7777
+[2017.12.05-21.33.11:130][497]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2017.12.05-22.33.11
+[2017.12.05-21.33.11:130][497]LogWorld: Bringing up level for play took: 0.002682
+[2017.12.05-21.33.11:140][497]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.05-21.33.11:140][497]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.05-21.33.11:140][497]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.05-21.33.11:140][497]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.05-21.33.11:141][497]LogLoad: Took 1.593293 seconds to LoadMap(/Game/Maps/Lobby)
+[2017.12.05-21.33.32:325][811]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.33.32:325][811]LogHandshake: SendConnectChallenge. Timestamp: 22.896439, Cookie: 134114008229140086027181101041036249047029167004098054088012
+[2017.12.05-21.33.32:325][811]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.33.32:325][811]LogHandshake: SendConnectChallenge. Timestamp: 22.896439, Cookie: 134114008229140086027181101041036249047029167004098054088012
+[2017.12.05-21.33.32:325][811]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.33.32:325][811]LogHandshake: SendConnectChallenge. Timestamp: 22.896439, Cookie: 134114008229140086027181101041036249047029167004098054088012
+[2017.12.05-21.33.32:326][811]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.33.32:326][811]LogHandshake: SendConnectChallenge. Timestamp: 22.896439, Cookie: 134114008229140086027181101041036249047029167004098054088012
+[2017.12.05-21.33.32:486][821]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.33.32:486][821]LogNet: Server accepting post-challenge connection from: 76561198348991272:7777
+[2017.12.05-21.33.32:486][821]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.05-21.33.32:486][821]LogNet: NotifyAcceptedConnection: Name: Lobby, TimeStamp: 12/05/17 22:33:32, [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_1, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.05-21.33.32:486][821]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_1, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.05-21.33.32:487][821]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Lobby.Lobby: Accepted
+[2017.12.05-21.33.32:489][821]LogNet: Remote platform little endian=1
+[2017.12.05-21.33.32:489][821]LogNet: This platform little endian=1
+[2017.12.05-21.33.32:550][825]LogNet: Login request: /Game/Maps/MainMenu?Name=ArongDEV userId: 76561198348991272
+[2017.12.05-21.33.32:599][828]LogNet: Client netspeed is 10000
+[2017.12.05-21.34.32:609][547]LogNet:Warning: UNetConnection::Tick: Connection TIMED OUT. Closing connection. Elapsed: 60.01, Real: 60.01, Good: 60.01, DriverTime: 83.18, Threshold: 60.00, [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_1, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.05-21.34.32:609][547]LogNet:Warning: Network Failure: GameNetDriver[ConnectionTimeout]: UNetConnection::Tick: Connection TIMED OUT. Closing connection. Elapsed: 60.01, Real: 60.01, Good: 60.01, DriverTime: 83.18, Threshold: 60.00, [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_1, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.05-21.34.32:609][547]LogNet: NetworkFailure: ConnectionTimeout, Error: 'UNetConnection::Tick: Connection TIMED OUT. Closing connection. Elapsed: 60.01, Real: 60.01, Good: 60.01, DriverTime: 83.18, Threshold: 60.00, [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_1, IsServer: YES, PC: NULL, Owner: NULL'
+[2017.12.05-21.34.32:611][547]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_1, IsServer: YES, PC: NULL, Owner: NULL, Channels: 2, Time: 2017.12.05-21.34.32
+[2017.12.05-21.34.32:611][547]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_1, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.05-21.36.12:929][766]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.12.05-21.36.12:929][766]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.12.05-21.36.12:930][766]LogNet: Browse: /Game/Maps/Lobby?listen
+[2017.12.05-21.36.12:930][766]LogLoad: LoadMap: /Game/Maps/Lobby?listen
+[2017.12.05-21.36.12:930][766]LogNet: World NetDriver shutdown SteamNetDriver_1 [GameNetDriver]
+[2017.12.05-21.36.12:930][766]LogNet: DestroyNamedNetDriver SteamNetDriver_1 [GameNetDriver]
+[2017.12.05-21.36.12:930][766]LogExit: GameNetDriver SteamNetDriver_1 shut down
+[2017.12.05-21.36.12:932][766]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2017.12.05-21.36.12:989][766]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-21.36.12:989][766]LogMemory: Process Physical Memory: 1160.60 MB used, 1209.87 MB peak
+[2017.12.05-21.36.12:989][766]LogMemory: Process Virtual Memory: 1784.21 MB used, 1833.27 MB peak
+[2017.12.05-21.36.12:989][766]LogMemory: Physical Memory: 7151.13 MB used,  9174.69 MB free, 16325.82 MB total
+[2017.12.05-21.36.12:989][766]LogMemory: Virtual Memory: 2605.09 MB used,  9174.69 MB free, 134217728.00 MB total
+[2017.12.05-21.36.12:989][766]LogMemory: 
+[2017.12.05-21.36.12:989][766]Allocator Stats for TBB: (not implemented)
+[2017.12.05-21.36.13:675][766]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.36.13:675][766]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WidgetTree
+[2017.12.05-21.36.13:675][766]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.36.13:675][766]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.36.13:675][766]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WidgetTree
+[2017.12.05-21.36.13:675][766]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.36.13:683][766]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.36.13:683][766]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.36.13:683][766]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.36.13:683][766]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.36.13:683][766]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.36.13:683][766]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.36.13:820][766]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.36.13:820][766]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WorldSettings_1
+[2017.12.05-21.36.13:820][766]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.36.13:820][766]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.36.13:820][766]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WorldSettings_1
+[2017.12.05-21.36.13:820][766]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.36.13:824][766]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.36.13:824][766]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.36.13:824][766]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.36.13:824][766]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.36.13:825][766]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.36.13:825][766]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.36.14:567][766]LogAIModule: Creating AISystem for world Lobby
+[2017.12.05-21.36.14:568][766]LogLoad: Game class is 'LobbyGM_C'
+[2017.12.05-21.36.14:568][766]LogNet:Display: SteamNetDriver_2 bound to port 7777
+[2017.12.05-21.36.14:568][766]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.05-21.36.14:568][766]LogNet: GameNetDriver SteamNetDriver_2 IpNetDriver listening on port 7777
+[2017.12.05-21.36.14:572][766]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2017.12.05-22.36.14
+[2017.12.05-21.36.14:572][766]LogWorld: Bringing up level for play took: 0.002983
+[2017.12.05-21.36.14:581][766]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.05-21.36.14:581][766]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.05-21.36.14:581][766]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.05-21.36.14:581][766]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.05-21.36.14:581][766]LogLoad: Took 1.651002 seconds to LoadMap(/Game/Maps/Lobby)
+[2017.12.05-21.37.57:841][166]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.37.57:841][166]LogHandshake: SendConnectChallenge. Timestamp: 104.923866, Cookie: 047007114172018119247192209199031231233189124065101197206022
+[2017.12.05-21.37.57:842][166]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.37.57:842][166]LogHandshake: SendConnectChallenge. Timestamp: 104.923866, Cookie: 047007114172018119247192209199031231233189124065101197206022
+[2017.12.05-21.37.57:842][166]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.37.57:842][166]LogHandshake: SendConnectChallenge. Timestamp: 104.923866, Cookie: 047007114172018119247192209199031231233189124065101197206022
+[2017.12.05-21.37.57:843][166]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.37.57:843][166]LogHandshake: SendConnectChallenge. Timestamp: 104.923866, Cookie: 047007114172018119247192209199031231233189124065101197206022
+[2017.12.05-21.37.57:843][166]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.37.57:844][166]LogHandshake: SendConnectChallenge. Timestamp: 104.923866, Cookie: 047007114172018119247192209199031231233189124065101197206022
+[2017.12.05-21.37.57:844][166]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.37.57:844][166]LogHandshake: SendConnectChallenge. Timestamp: 104.923866, Cookie: 047007114172018119247192209199031231233189124065101197206022
+[2017.12.05-21.37.57:845][166]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.37.57:845][166]LogHandshake: SendConnectChallenge. Timestamp: 104.923866, Cookie: 047007114172018119247192209199031231233189124065101197206022
+[2017.12.05-21.37.57:905][170]LogNet: NotifyAcceptingConnection accepted from: 76561198348991272:7777
+[2017.12.05-21.37.57:905][170]LogNet: Server accepting post-challenge connection from: 76561198348991272:7777
+[2017.12.05-21.37.57:905][170]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.05-21.37.57:905][170]LogNet: NotifyAcceptedConnection: Name: Lobby, TimeStamp: 12/05/17 22:37:57, [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.05-21.37.57:905][170]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.05-21.37.57:906][170]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Lobby.Lobby: Accepted
+[2017.12.05-21.37.57:906][170]LogNet: Remote platform little endian=1
+[2017.12.05-21.37.57:906][170]LogNet: This platform little endian=1
+[2017.12.05-21.37.57:986][175]LogNet: Login request: /Game/Maps/MainMenu?Name=ArongDEV userId: 76561198348991272
+[2017.12.05-21.37.58:050][179]LogNet: Client netspeed is 10000
+[2017.12.05-21.38.26:263][929]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, Channels: 2, Time: 2017.12.05-21.38.26
+[2017.12.05-21.38.26:263][929]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.05-21.39.32:501][ 31]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve MainMenu.umap.
+[2017.12.05-21.39.32:501][ 31]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.12.05-21.39.32:501][ 31]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.12.05-21.39.32:558][ 31]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve MainMenu.umap.
+[2017.12.05-21.39.32:558][ 31]LogNet: Browse: /Game/Maps/MainMenu
+[2017.12.05-21.39.32:558][ 31]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2017.12.05-21.39.32:559][ 31]LogNet: World NetDriver shutdown SteamNetDriver_2 [GameNetDriver]
+[2017.12.05-21.39.32:559][ 31]LogNet: DestroyNamedNetDriver SteamNetDriver_2 [GameNetDriver]
+[2017.12.05-21.39.32:559][ 31]LogExit: GameNetDriver SteamNetDriver_2 shut down
+[2017.12.05-21.39.32:559][ 31]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2017.12.05-21.39.32:602][ 31]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-21.39.32:602][ 31]LogMemory: Process Physical Memory: 1221.09 MB used, 1227.93 MB peak
+[2017.12.05-21.39.32:602][ 31]LogMemory: Process Virtual Memory: 1885.64 MB used, 1892.41 MB peak
+[2017.12.05-21.39.32:602][ 31]LogMemory: Physical Memory: 7171.29 MB used,  9154.54 MB free, 16325.82 MB total
+[2017.12.05-21.39.32:602][ 31]LogMemory: Virtual Memory: 2706.78 MB used,  9154.54 MB free, 134217728.00 MB total
+[2017.12.05-21.39.32:602][ 31]LogMemory: 
+[2017.12.05-21.39.32:602][ 31]Allocator Stats for TBB: (not implemented)
+[2017.12.05-21.39.32:624][ 31]LogAIModule: Creating AISystem for world MainMenu
+[2017.12.05-21.39.32:624][ 31]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-21.39.32:625][ 31]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2017.12.05-22.39.32
+[2017.12.05-21.39.32:625][ 31]LogWorld: Bringing up level for play took: 0.000331
+[2017.12.05-21.39.32:627][ 31]LogLoad: Took 0.068731 seconds to LoadMap(/Game/Maps/MainMenu)
+[2017.12.05-21.39.59:833][715]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:43729).
+[2017.12.05-21.40.00:887][778]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:43793).
+[2017.12.05-21.40.20:760][ 11]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamFindLobbies bWasSuccessful: 0 NumResults: 20' failed in 15.034617 seconds
+[2017.12.05-21.41.49:005][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 76 11
+[2017.12.05-21.41.49:005][482]LogOnline:Warning: STEAM: Failed to parse setting from key 76 value 11
+[2017.12.05-21.41.49:005][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 77 2
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: STEAM: Failed to parse setting from key 77 value 2
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 78 0
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: STEAM: Failed to parse setting from key 78 value 0
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 79 99
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: STEAM: Failed to parse setting from key 79 value 99
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 80 0
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: STEAM: Failed to parse setting from key 80 value 0
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 81 65535
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: STEAM: Failed to parse setting from key 81 value 65535
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 82 0
+[2017.12.05-21.41.49:006][482]LogOnline:Warning: STEAM: Failed to parse setting from key 82 value 0
+[2017.12.05-21.41.49:007][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 83 0
+[2017.12.05-21.41.49:007][482]LogOnline:Warning: STEAM: Failed to parse setting from key 83 value 0
+[2017.12.05-21.41.49:007][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data LobbyDataInternal EF5p1gAAhgH5ZC0KAQAQAQsAAAAAAAAAVmFsZXJpdXM5OAAAAABQAAAAADAwMDAyOTgAAAAAAAAAAIACAAAAAAAAAFcANAAAAAAAAAABAAAAMTA5Nzc1MjQ0NTE0Mzg1NDI0AAAAAAAAAgAAABECAAABAAAAAAAAADAIAAAAAAAAWAA4AAAAAAAAAAsAAAAGAAAAAgAAAAAAAAAAAAAAYwAAAAAAAAD//wAAAAAAAAAAAAABAAAABQAAAAAADgACBQAAAQAAAAAAAABVAAQAAAAAAAAAAAUB/w==
+[2017.12.05-21.41.49:007][482]LogOnline:Warning: STEAM: Failed to parse setting from key LobbyDataInternal value EF5p1gAAhgH5ZC0KAQAQAQsAAAAAAAAAVmFsZXJpdXM5OAAAAABQAAAAADAwMDAyOTgAAAAAAAAAAIACAAAAAAAAAFcANAAAAAAAAAABAAAAMTA5Nzc1MjQ0NTE0Mzg1NDI0AAAAAAAAAgAAABECAAABAAAAAAAAADAIAAAAAAAAWAA4AAAAAAAAAAsAAAAGAAAAAgAAAAAAAAAAAAAAYwAAAAAAAAD//wAAAAAAAAAAAAABAAAABQAAAAAADgACBQAAAQAAAAAAAABVAAQAAAAAAAAAAAUB/w==
+[2017.12.05-21.41.49:007][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D6695E10]'
+[2017.12.05-21.41.49:008][482]LogOnline:Warning: STEAM: Removed incompatible build: ServerBuildUniqueId = 0x4a3947ad, GetBuildUniqueId() = 0x776d459b
+[2017.12.05-21.41.49:008][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D6697B0C]'
+[2017.12.05-21.41.49:008][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data LobbyType k_ELobbyTypePublic
+[2017.12.05-21.41.49:008][482]LogOnline:Warning: STEAM: Failed to parse setting from key LobbyType value k_ELobbyTypePublic
+[2017.12.05-21.41.49:008][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data version 1.0.02
+[2017.12.05-21.41.49:008][482]LogOnline:Warning: STEAM: Failed to parse setting from key version value 1.0.02
+[2017.12.05-21.41.49:008][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D667B657]'
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 1
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 1
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 333024e5-8064-4324-9884-30abe61f8762
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 333024e5-8064-4324-9884-30abe61f8762
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Gioco di ruolo (ONLY ITALIAN) (Host Moderatore)
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Failed to parse setting from key name value Gioco di ruolo (ONLY ITALIAN) (Host Moderatore)
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90112224005491717
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90112224005491717
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D65CE138]'
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data LobbyType k_ELobbyTypePublic
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Failed to parse setting from key LobbyType value k_ELobbyTypePublic
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data version 1.0.02
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Failed to parse setting from key version value 1.0.02
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D6696842]'
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data actual_password cae86f0e1104da7dcc31813d56cfc8b6
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: STEAM: Failed to parse setting from key actual_password value cae86f0e1104da7dcc31813d56cfc8b6
+[2017.12.05-21.41.49:009][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data desc eu4
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: STEAM: Failed to parse setting from key desc value eu4
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data mod eu4
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: STEAM: Failed to parse setting from key mod value eu4
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name kimera
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: STEAM: Failed to parse setting from key name value kimera
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data password 1
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: STEAM: Failed to parse setting from key password value 1
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data status RUNNING
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: STEAM: Failed to parse setting from key status value RUNNING
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data version EU4 v1.23.0.0 Persia (1b5e)
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: STEAM: Failed to parse setting from key version value EU4 v1.23.0.0 Persia (1b5e)
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.12.05-21.41.49:010][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90112229192654853
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90112229192654853
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D667A244]'
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000000c I45
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: STEAM: Failed to parse setting from key 1000000c value I45
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000000d I7
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: STEAM: Failed to parse setting from key 1000000d value I7
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000010 I0
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000010 value I0
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000011 I-1
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000011 value I-1
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000012 I0
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000012 value I0
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000013 I0
+[2017.12.05-21.41.49:011][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000013 value I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000014 I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000014 value I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000000e I3544385890265674032
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Failed to parse setting from key 2000000e value I3544385890265674032
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000000f I3473182621966677041
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Failed to parse setting from key 2000000f value I3473182621966677041
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000015 I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Failed to parse setting from key 20000015 value I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000017 I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Failed to parse setting from key 20000017 value I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000018 I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Failed to parse setting from key 20000018 value I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000019 I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Failed to parse setting from key 20000019 value I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000001a I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Failed to parse setting from key 2000001a value I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000001b I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Failed to parse setting from key 2000001b value I0
+[2017.12.05-21.41.49:012][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D6690E6E]'
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 0 16711725
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 0 value 16711725
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1 -934595620
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 1 value -934595620
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10 value 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 11 -1
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 11 value -1
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 12 -1
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 12 value -1
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 13 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 13 value 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 14 3
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 14 value 3
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 15 4
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 15 value 4
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 16 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 16 value 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 17 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 17 value 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 18 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 18 value 0
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 19 1
+[2017.12.05-21.41.49:013][482]LogOnline:Warning: STEAM: Failed to parse setting from key 19 value 1
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2 32272
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 2 value 32272
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 20 value 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 21 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 21 value 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 22 20
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 22 value 20
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 23 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 23 value 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 24 3
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 24 value 3
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 25 41
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 25 value 41
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 26 1
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 26 value 1
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 27 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 27 value 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 28 1
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 28 value 1
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 29 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 29 value 0
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 3 2
+[2017.12.05-21.41.49:014][482]LogOnline:Warning: STEAM: Failed to parse setting from key 3 value 2
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 30 2017
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 30 value 2017
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 31 0
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 31 value 0
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 32 1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 32 value 1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 33 5
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 33 value 5
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 34 5
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 34 value 5
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 35 100
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 35 value 100
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 4 -1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 4 value -1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 5 -1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 5 value -1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 6 -1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 6 value -1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 7 -1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 7 value -1
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 8 18
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 8 value 18
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 9 19
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key 9 value 19
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data SteamLobbyGameMode 0
+[2017.12.05-21.41.49:015][482]LogOnline:Warning: STEAM: Failed to parse setting from key SteamLobbyGameMode value 0
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data SteamLobbyHostId 76561198108365743
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Failed to parse setting from key SteamLobbyHostId value 76561198108365743
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data SteamLobbyHostName Mr.Gary
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Failed to parse setting from key SteamLobbyHostName value Mr.Gary
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data SteamLobbyOpenSlots 20
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Failed to parse setting from key SteamLobbyOpenSlots value 20
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data SteamLobbyVisibility 1
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Failed to parse setting from key SteamLobbyVisibility value 1
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D66982BC]'
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data cname IT
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Failed to parse setting from key cname value IT
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data created_by_mp_steam_controller 1
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Failed to parse setting from key created_by_mp_steam_controller value 1
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data Platform WIN
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Failed to parse setting from key Platform value WIN
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data type 05IT
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Failed to parse setting from key type value 05IT
+[2017.12.05-21.41.49:016][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D65B9A20]'
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Ich bin KoKle
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Failed to parse setting from key name value Ich bin KoKle
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D668FEE0]'
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data cname 109775244513564371
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Failed to parse setting from key cname value 109775244513564371
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data Platform WIN
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Failed to parse setting from key Platform value WIN
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data type 04109775244513564371
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Failed to parse setting from key type value 04109775244513564371
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D65CEA7D]'
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000000c I45
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Failed to parse setting from key 1000000c value I45
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000000d I7
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Failed to parse setting from key 1000000d value I7
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000010 I0
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000010 value I0
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000011 I-1
+[2017.12.05-21.41.49:017][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000011 value I-1
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000012 I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000012 value I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000013 I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000013 value I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000014 I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 10000014 value I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000000e I3544385890265674032
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 2000000e value I3544385890265674032
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000000f I3702351652153812017
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 2000000f value I3702351652153812017
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000015 I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 20000015 value I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000017 I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 20000017 value I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000018 I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 20000018 value I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000019 I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 20000019 value I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000001a I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: STEAM: Failed to parse setting from key 2000001a value I0
+[2017.12.05-21.41.49:018][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000001b I0
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: STEAM: Failed to parse setting from key 2000001b value I0
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D667BD23]'
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data BLDID 1158945276
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: STEAM: Failed to parse setting from key BLDID value 1158945276
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data OPRCON 0
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: STEAM: Failed to parse setting from key OPRCON value 0
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data OPUCON 7
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: STEAM: Failed to parse setting from key OPUCON value 7
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data OWNID 76561198006643110
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: STEAM: Failed to parse setting from key OWNID value 76561198006643110
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data OWNNAME riorojo
+[2017.12.05-21.41.49:019][482]LogOnline:Warning: STEAM: Failed to parse setting from key OWNNAME value riorojo
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data PRCON 0
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Failed to parse setting from key PRCON value 0
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data PUCON 8
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Failed to parse setting from key PUCON value 8
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data SFLGS 739
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Failed to parse setting from key SFLGS value 739
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D668A79A]'
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 1
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 1
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 6256eef7-4d2d-4cdd-9e7c-d5e9508dfd96
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 6256eef7-4d2d-4cdd-9e7c-d5e9508dfd96
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name boss server (stealthmaster)
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Failed to parse setting from key name value boss server (stealthmaster)
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90112229817868292
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90112229817868292
+[2017.12.05-21.41.49:020][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D668B5A0]'
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: STEAM: Removed incompatible build: ServerBuildUniqueId = 0x00000112, GetBuildUniqueId() = 0x776d459b
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D668FD24]'
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name TonyRedgrave
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: STEAM: Failed to parse setting from key name value TonyRedgrave
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D6688DB0]'
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data auto_stop_game 50
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: STEAM: Failed to parse setting from key auto_stop_game value 50
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data browsing_timeout 60
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: STEAM: Failed to parse setting from key browsing_timeout value 60
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data database_changes 1
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: STEAM: Failed to parse setting from key database_changes value 1
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data disable_subscribing_to_other_humans 50
+[2017.12.05-21.41.49:022][482]LogOnline:Warning: STEAM: Failed to parse setting from key disable_subscribing_to_other_humans value 50
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data fix_version 1
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key fix_version value 1
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data force_continue_enabled 0
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key force_continue_enabled value 0
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data game_type 4
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key game_type value 4
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data has_password 1
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key has_password value 1
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data highlight_modes 4
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key highlight_modes value 4
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data host_user R4zihel
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key host_user value R4zihel
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data in_game_editor_not_allowed 0
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key in_game_editor_not_allowed value 0
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data in_match_timeout 0
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key in_match_timeout value 0
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data major_version 17
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key major_version value 17
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data max_connections 32
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key max_connections value 32
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data max_managers 308
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key max_managers value 308
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data message_timeout 0
+[2017.12.05-21.41.49:023][482]LogOnline:Warning: STEAM: Failed to parse setting from key message_timeout value 0
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data minor_version 3
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key minor_version value 3
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Dioboia
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key name value Dioboia
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name_substring_Di 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key name_substring_Di value 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name_substring_Dio 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key name_substring_Dio value 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name_substring_Diob 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key name_substring_Diob value 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name_substring_Diobo 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key name_substring_Diobo value 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name_substring_Dioboi 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key name_substring_Dioboi value 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name_substring_Dioboia 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key name_substring_Dioboia value 1
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data network_version 1703
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key network_version value 1703
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data number_managers 2
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key number_managers value 2
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data password cavallo
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key password value cavallo
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data prematch_timeout 0
+[2017.12.05-21.41.49:024][482]LogOnline:Warning: STEAM: Failed to parse setting from key prematch_timeout value 0
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data replay_modes 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key replay_modes value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_1 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_1 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_11 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_11 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_12 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_12 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_129558 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_129558 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_129645 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_129645 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_16 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_16 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_17 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_17 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_22 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_22 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_23 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_23 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_29 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_29 value 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_32 1
+[2017.12.05-21.41.49:025][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_32 value 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_33 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_33 value 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_5314301 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_5314301 value 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_6 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_6 value 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_60 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_60 value 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_67 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_67 value 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data selected_division_68 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: STEAM: Failed to parse setting from key selected_division_68 value 1
+[2017.12.05-21.41.49:026][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D668FC44]'
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data LobbyType k_ELobbyTypePublic
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: STEAM: Failed to parse setting from key LobbyType value k_ELobbyTypePublic
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data version 1.0.02
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: STEAM: Failed to parse setting from key version value 1.0.02
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D669464B]'
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data actual_password d4cd194083061f0f8f1478f7e26fa509
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: STEAM: Failed to parse setting from key actual_password value d4cd194083061f0f8f1478f7e26fa509
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data desc hoi4
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: STEAM: Failed to parse setting from key desc value hoi4
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data mod hoi4
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: STEAM: Failed to parse setting from key mod value hoi4
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Test1
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: STEAM: Failed to parse setting from key name value Test1
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data password 1
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: STEAM: Failed to parse setting from key password value 1
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data status STARTING
+[2017.12.05-21.41.49:027][482]LogOnline:Warning: STEAM: Failed to parse setting from key status value STARTING
+[2017.12.05-21.41.49:028][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data version Oak v1.4.2 ()
+[2017.12.05-21.41.49:028][482]LogOnline:Warning: STEAM: Failed to parse setting from key version value Oak v1.4.2 ()
+[2017.12.05-21.41.49:028][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.12.05-21.41.49:028][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.12.05-21.41.49:028][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.12.05-21.41.49:028][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.12.05-21.41.49:028][482]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90112228985402374
+[2017.12.05-21.41.49:028][482]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90112228985402374
+[2017.12.05-21.41.49:028][482]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000D66716F8]'
+[2017.12.05-21.41.51:109][611]LogNet: Browse: steam.76561198348991272//Game/Maps/MainMenu
+[2017.12.05-21.41.51:110][611]LogNet:Display: SteamNetDriver_3 bound to port 7777
+[2017.12.05-21.41.51:110][611]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.05-21.41.51:110][611]LogNet: Game client on port 7777, rate 10000
+[2017.12.05-21.41.51:111][611]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_2, Driver: PendingNetDriver SteamNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.05-21.41.55:238][867]LogHandshake: SendChallengeResponse. Timestamp: 33.201439, Cookie: 169253173241000175146249135000054202117017115252221253060116
+[2017.12.05-21.41.55:238][867]LogHandshake: SendChallengeResponse. Timestamp: 33.201439, Cookie: 169253173241000175146249135000054202117017115252221253060116
+[2017.12.05-21.41.55:238][867]LogHandshake: SendChallengeResponse. Timestamp: 33.201439, Cookie: 169253173241000175146249135000054202117017115252221253060116
+[2017.12.05-21.41.55:238][867]LogHandshake: SendChallengeResponse. Timestamp: 33.201439, Cookie: 169253173241000175146249135000054202117017115252221253060116
+[2017.12.05-21.41.55:239][867]LogHandshake: SendChallengeResponse. Timestamp: 33.201439, Cookie: 169253173241000175146249135000054202117017115252221253060116
+[2017.12.05-21.41.55:367][875]LogNet: Welcomed by server (Level: /Game/Maps/Lobby, Game: /Game/Blueprints/Lobby/LobbyGM.LobbyGM_C)
+[2017.12.05-21.41.55:367][875]LogLoad: LoadMap: steam.76561198348991272//Game/Maps/Lobby?game=/Game/Blueprints/Lobby/LobbyGM.LobbyGM_C
+[2017.12.05-21.41.55:381][875]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-21.41.55:381][875]LogMemory: Process Physical Memory: 1194.91 MB used, 1227.93 MB peak
+[2017.12.05-21.41.55:381][875]LogMemory: Process Virtual Memory: 1564.30 MB used, 1923.76 MB peak
+[2017.12.05-21.41.55:381][875]LogMemory: Physical Memory: 7170.56 MB used,  9155.26 MB free, 16325.82 MB total
+[2017.12.05-21.41.55:381][875]LogMemory: Virtual Memory: 2653.84 MB used,  9155.26 MB free, 134217728.00 MB total
+[2017.12.05-21.41.55:381][875]LogMemory: 
+[2017.12.05-21.41.55:381][875]Allocator Stats for TBB: (not implemented)
+[2017.12.05-21.41.56:038][875]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.41.56:038][875]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WidgetTree
+[2017.12.05-21.41.56:038][875]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.41.56:038][875]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.41.56:039][875]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WidgetTree
+[2017.12.05-21.41.56:039][875]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.41.56:046][875]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.41.56:046][875]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.41.56:046][875]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.41.56:046][875]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.41.56:046][875]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.41.56:046][875]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.41.56:190][875]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.41.56:190][875]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WorldSettings_1
+[2017.12.05-21.41.56:190][875]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.41.56:190][875]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.41.56:190][875]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by WorldSettings_1
+[2017.12.05-21.41.56:190][875]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.41.56:195][875]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.41.56:195][875]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.41.56:195][875]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.05-21.41.56:195][875]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.41.56:195][875]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.05-21.41.56:195][875]LogUObjectGlobals:Warning: Failed to load '/Engine/BasicShapes/RedMaterial': Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading NULL.
+[2017.12.05-21.41.56:947][875]LogAIModule: Creating AISystem for world Lobby
+[2017.12.05-21.41.56:951][875]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2017.12.05-22.41.56
+[2017.12.05-21.41.56:951][875]LogWorld: Bringing up level for play took: 0.002847
+[2017.12.05-21.41.56:951][875]LogLoad: Took 1.583894 seconds to LoadMap(/Game/Maps/Lobby)
+[2017.12.05-21.42.01:453][155]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.12.05-21.42.02:778][237]LogBlueprintUserMessages: [ErikaBP_C_0] sasdfafsdasdf
+[2017.12.05-21.42.02:824][240]LogBlueprintUserMessages: [ErikaBP_C_0] sasdfafsdasdf
+[2017.12.05-21.42.04:501][344]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.12.05-21.42.05:358][397]LogBlueprintUserMessages: [ErikaBP_C_1] sasdfafsdasdf
+[2017.12.05-21.42.05:453][403]LogBlueprintUserMessages: [ErikaBP_C_1] sasdfafsdasdf
+[2017.12.05-21.42.28:493][831]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_0. Function ServerInitialization will not be processed.
+[2017.12.05-21.43.51:804][994]LogWorld: SeamlessTravel to: /Game/Maps/CastleMap01
+[2017.12.05-21.43.51:845][995]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
+[2017.12.05-21.43.51:847][995]LogWorld: Bringing World /Game/Maps/TravelMap.TravelMap up for play (max tick rate 0) at 2017.12.05-22.43.51
+[2017.12.05-21.43.51:847][995]LogWorld: Bringing up level for play took: 0.001894
+[2017.12.05-21.43.51:847][995]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPC_C_0
+[2017.12.05-21.43.51:847][995]LogNet:Verbose: NotifyLoadedWorld Begin
+[2017.12.05-21.43.51:847][995]LogNet:VeryVerbose: GetFunctionCallspace RemoteRole Remote ServerNotifyLoadedWorld
+[2017.12.05-21.43.51:848][995]LogNetTraffic:       Sent RPC: LobbyPC_C_0::ServerNotifyLoadedWorld [34.4 bytes]
+[2017.12.05-21.43.51:848][995]LogNetTraffic:VeryVerbose: Sending: FOutBunch: Channel[2] ChSequence: 15 NumBits: 275 PacketId: 0 bOpen: 0 bClose: 0 bDormant: 0 bIsReplicationPaused: 0 bReliable: 1 bPartial: 0//0//0 bHasPackageMapExports: 0 
+[2017.12.05-21.43.51:848][995]LogNetTraffic:Verbose: UNetConnection::SendRawBunch. ChIndex: 2. Bits: 275. PacketId: 7002
+[2017.12.05-21.43.51:848][995]LogNet:Verbose: NotifyLoadedWorld End
+[2017.12.05-21.43.51:848][995]LogWorld: StartLoadingDestination to: /Game/Maps/CastleMap01
+[2017.12.05-21.43.52:826][ 14]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
+[2017.12.05-21.43.52:831][ 14]LogWorld: Bringing World /Game/Maps/CastleMap01.CastleMap01 up for play (max tick rate 0) at 2017.12.05-22.43.52
+[2017.12.05-21.43.52:832][ 14]LogWorld: Bringing up level for play took: 0.005963
+[2017.12.05-21.43.52:832][ 14]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPC_C_0
+[2017.12.05-21.43.52:832][ 14]LogNet:Verbose: NotifyLoadedWorld Begin
+[2017.12.05-21.43.52:832][ 14]LogNet:VeryVerbose: GetFunctionCallspace RemoteRole Remote ServerNotifyLoadedWorld
+[2017.12.05-21.43.52:832][ 14]LogNetTraffic:       Sent RPC: LobbyPC_C_0::ServerNotifyLoadedWorld [36.4 bytes]
+[2017.12.05-21.43.52:832][ 14]LogNetTraffic:VeryVerbose: Sending: FOutBunch: Channel[2] ChSequence: 16 NumBits: 291 PacketId: 0 bOpen: 0 bClose: 0 bDormant: 0 bIsReplicationPaused: 0 bReliable: 1 bPartial: 0//0//0 bHasPackageMapExports: 0 
+[2017.12.05-21.43.52:832][ 14]LogNetTraffic:Verbose: UNetConnection::SendRawBunch. ChIndex: 2. Bits: 291. PacketId: 7019
+[2017.12.05-21.43.52:832][ 14]LogNet:Verbose: NotifyLoadedWorld End
+[2017.12.05-21.43.52:832][ 14]LogWorld: ----SeamlessTravel finished in 1.03 seconds ------
+[2017.12.05-21.44.09:120][ 24]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_0. Function ResetAttack will not be processed.
+[2017.12.05-21.44.11:878][195]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_0. Function ResetAttack will not be processed.
+[2017.12.05-21.44.16:313][470]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_0. Function ResetAttack will not be processed.
+[2017.12.05-21.44.56:891][982]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve MainMenu.umap.
+[2017.12.05-21.44.56:948][982]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve MainMenu.umap.
+[2017.12.05-21.44.56:948][982]LogNet: Browse: /Game/Maps/MainMenu
+[2017.12.05-21.44.56:948][982]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2017.12.05-21.44.56:949][982]LogNet: World NetDriver shutdown SteamNetDriver_3 [GameNetDriver]
+[2017.12.05-21.44.56:949][982]LogNet: DestroyNamedNetDriver SteamNetDriver_3 [GameNetDriver]
+[2017.12.05-21.44.56:949][982]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_2, Driver: GameNetDriver SteamNetDriver_3, IsServer: NO, PC: GameplayPC_C_0, Owner: GameplayPC_C_0, Channels: 11, Time: 2017.12.05-21.44.56
+[2017.12.05-21.44.56:949][982]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198348991272:7777, Name: SteamNetConnection_2, Driver: GameNetDriver SteamNetDriver_3, IsServer: NO, PC: GameplayPC_C_0, Owner: GameplayPC_C_0
+[2017.12.05-21.44.56:949][982]LogExit: GameNetDriver SteamNetDriver_3 shut down
+[2017.12.05-21.44.56:992][982]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-21.44.56:992][982]LogMemory: Process Physical Memory: 1257.13 MB used, 1267.94 MB peak
+[2017.12.05-21.44.56:992][982]LogMemory: Process Virtual Memory: 1878.94 MB used, 1923.76 MB peak
+[2017.12.05-21.44.56:992][982]LogMemory: Physical Memory: 7231.52 MB used,  9094.30 MB free, 16325.82 MB total
+[2017.12.05-21.44.56:992][982]LogMemory: Virtual Memory: 2788.53 MB used,  9094.30 MB free, 134217728.00 MB total
+[2017.12.05-21.44.56:992][982]LogMemory: 
+[2017.12.05-21.44.56:992][982]Allocator Stats for TBB: (not implemented)
+[2017.12.05-21.44.57:002][982]LogAIModule: Creating AISystem for world MainMenu
+[2017.12.05-21.44.57:003][982]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-21.44.57:004][982]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2017.12.05-22.44.57
+[2017.12.05-21.44.57:004][982]LogWorld: Bringing up level for play took: 0.000398
+[2017.12.05-21.44.57:005][982]LogLoad: Took 0.056951 seconds to LoadMap(/Game/Maps/MainMenu)
+[2017.12.05-21.46.07:796][372]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamFindLobbies bWasSuccessful: 0 NumResults: 20' failed in 15.008973 seconds
+[2017.12.05-21.46.30:345][770]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamFindLobbies bWasSuccessful: 0 NumResults: 20' failed in 15.006080 seconds
+[2017.12.05-21.46.56:120][368]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamFindLobbies bWasSuccessful: 0 NumResults: 20' failed in 15.001668 seconds
+[2017.12.05-21.47.48:847][637]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamFindLobbies bWasSuccessful: 0 NumResults: 20' failed in 15.046778 seconds
+[2017.12.05-21.48.08:539][857]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamFindLobbies bWasSuccessful: 0 NumResults: 20' failed in 15.047290 seconds
+[2017.12.05-21.49.10:258][683]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamFindLobbies bWasSuccessful: 0 NumResults: 20' failed in 15.050537 seconds
+[2017.12.05-21.49.38:984][464]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamFindLobbies bWasSuccessful: 0 NumResults: 20' failed in 15.044607 seconds
+[2017.12.05-21.49.40:811][576]Closing by request
+[2017.12.05-21.49.40:811][576]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.12.05-21.49.40:812][577]LogMoviePlayer: Shutting down movie player
+[2017.12.05-21.49.41:029][577]LogExit: Preparing to exit.
+[2017.12.05-21.49.41:931][577]LogExit: Game engine shut down
+[2017.12.05-21.49.42:006][577]LogObj: Freed 0b from 0 cluster array pools.
+[2017.12.05-21.49.42:007][577]LogExit: Object subsystem successfully closed.
+[2017.12.05-21.49.42:022][577]LogD3D11RHI: Shutdown
+[2017.12.05-21.49.42:022][577]LogD3D11RHI: CleanupD3DDevice
+[2017.12.05-21.49.42:073][577]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (278)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module SequenceRecorder (276)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module AutomationController (274)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module AutomationWorker (272)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module AIModule (270)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module GameplayDebugger (269)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module AITestSuite (267)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (264)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module MfMediaFactory (262)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (260)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (258)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module Media (257)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module CharacterAI (254)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module SessionServices (252)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (250)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module GeometryCache (248)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (247)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module Niagara (244)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (242)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module PortalServices (240)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module PortalRpc (238)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module MessagingRpc (236)
+[2017.12.05-21.49.42:079][577]LogModuleManager: Shutting down and abandoning module ProfilerService (234)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module TaskGraph (232)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module SteamVRController (230)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module SteamVR (228)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (226)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module OculusLibrary (224)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module OculusInput (222)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (220)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (218)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module CableComponent (216)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (214)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module Rejoin (210)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module Hotfix (208)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module Lobby (206)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module Party (204)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module Qos (202)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module HTML5Networking (200)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (198)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module DesktopPlatform (197)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module HotReload (195)
+[2017.12.05-21.49.42:127][577]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/Multiplayer 4.14/Binaries/Win64' was aborted.
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (194)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module UObjectPlugin (190)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (188)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (186)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module SourceControl (185)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module Multiplayer (182)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (180)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module PhysXVehicles (178)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (176)
+[2017.12.05-21.49.42:127][577]LogModuleManager: Shutting down and abandoning module UdpMessaging (174)
+[2017.12.05-21.49.42:228][577]LogModuleManager: Shutting down and abandoning module TcpMessaging (172)
+[2017.12.05-21.49.42:739][577]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (170)
+[2017.12.05-21.49.42:739][577]LogModuleManager: Shutting down and abandoning module FacialAnimation (168)
+[2017.12.05-21.49.42:739][577]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (166)
+[2017.12.05-21.49.42:739][577]LogModuleManager: Shutting down and abandoning module Paper2D (164)
+[2017.12.05-21.49.42:740][577]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (162)
+[2017.12.05-21.49.42:740][577]LogModuleManager: Shutting down and abandoning module WmfMedia (160)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module MfMedia (158)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module MediaAssets (156)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (154)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module VREditor (152)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (150)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (148)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module FunctionalTesting (146)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (144)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module UMG (142)
+[2017.12.05-21.49.42:742][577]LogModuleManager: Shutting down and abandoning module UMGEditor (141)
+[2017.12.05-21.49.42:743][577]LogModuleManager: Shutting down and abandoning module Sequencer (140)
+[2017.12.05-21.49.42:743][577]LogModuleManager: Shutting down and abandoning module AssetTools (138)
+[2017.12.05-21.49.42:743][577]LogModuleManager: Shutting down and abandoning module MessageLog (137)
+[2017.12.05-21.49.42:743][577]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (136)
+[2017.12.05-21.49.42:743][577]LogModuleManager: Shutting down and abandoning module SlateReflector (130)
+[2017.12.05-21.49.42:743][577]LogModuleManager: Shutting down and abandoning module Slate (128)
+[2017.12.05-21.49.42:743][577]LogModuleManager: Shutting down and abandoning module EditorStyle (126)
+[2017.12.05-21.49.42:748][577]LogModuleManager: Shutting down and abandoning module Messaging (124)
+[2017.12.05-21.49.42:748][577]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (122)
+[2017.12.05-21.49.42:748][577]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (120)
+[2017.12.05-21.49.42:748][577]LogModuleManager: Shutting down and abandoning module XAudio2 (118)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module Networking (116)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module Core (114)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module KismetCompiler (112)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module PhysXFormats (110)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module MeshUtilities (108)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (107)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (105)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (103)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module PropertyEditor (101)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module AssetRegistry (98)
+[2017.12.05-21.49.42:749][577]LogModuleManager: Shutting down and abandoning module DerivedDataCache (96)
+[2017.12.05-21.49.42:843][577]LogDerivedDataCache: Shutdown
+[2017.12.05-21.49.42:843][577]LogModuleManager: Shutting down and abandoning module TargetPlatform (94)
+[2017.12.05-21.49.42:843][577]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (93)
+[2017.12.05-21.49.42:843][577]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (91)
+[2017.12.05-21.49.42:843][577]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (89)
+[2017.12.05-21.49.42:843][577]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (87)
+[2017.12.05-21.49.42:843][577]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (85)
+[2017.12.05-21.49.42:843][577]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (83)
+[2017.12.05-21.49.42:843][577]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (81)
+[2017.12.05-21.49.42:843][577]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (79)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (77)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module ImageWrapper (76)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (73)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (71)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (69)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (67)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (65)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (63)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (61)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (59)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module InputCore (56)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module Settings (54)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module OculusRift (52)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module GearVR (50)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (48)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
+[2017.12.05-21.49.42:844][577]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2017.12.05-21.49.42:844][577]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.12.05-21.49.42:905][577]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.12.05-21.49.42:905][577]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.12.05-21.49.42:905][577]LogOnline:Display: Unloading online subsystem: NULL
+[2017.12.05-21.49.42:905][577]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.12.05-21.49.42:905][577]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.12.05-21.49.42:919][577]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.12.05-21.49.42:920][577]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.05-21.49.42:921][577]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.05-21.49.42:923][577]LogExit: Exiting.
+[2017.12.05-21.49.42:926][577]Log file closed, 12/05/17 22:49:42
